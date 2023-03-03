@@ -6,8 +6,6 @@ Caching is a process of storing a copies of files in cache, so that they can be 
 
 A cache's primary purpose is to increase data retrieval performance by reducing the time to acsess the data from slower storage layer. It also helps in save costs, scale heavy loads, and reduce latency.
 
-![Read-Through Cache](../../Pictures/Screenshots/Screenshot%20from%202023-03-03%2016-43-24.png)
-
 # Why do we need caching
 
 - When the costs of getting some information is very high or we need that information from time to time then we get the information once and the store it in a cached version.
