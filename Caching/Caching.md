@@ -4,7 +4,18 @@ A cache is a high-speed data storage layer, which stores a subset of data so tha
 
 Caching is a process of storing a copies of files in cache, so that they can be accessed with less delay. Caching is one of the easiest way to increase system performance.
 
-A cache's primary purpose is to increase data retrieval performance by reducing the time to acsess the data from slower storage layer.
+A cache's primary purpose is to increase data retrieval performance by reducing the time to acsess the data from slower storage layer. It also helps in save costs, scale heavy loads, and reduce latency.
+
+![Read-Through Cache](../../Pictures/Screenshots/Screenshot%20from%202023-03-03%2016-43-24.png)
+
+# Why do we need caching
+
+- When the costs of getting some information is very high or we need that information from time to time then we get the information once and the store it in a cached version.
+- When we need to retrieve data at higher speed then we can store the data in cache and then when request is made that data can be returned to user instead of going to slower back-end storage.
+
+# Cache Invalidation
+
+Caching Invalidation is a process in which data in the cache marked as invalid so that in future request made for that particular data should have cache-miss. In simple words, when we modify a data in a database then the same data present in the cache should be marked as invalid and when the application checks the data in cache it should be invalid data so the application can access data from database. 
 
 # Caching Approaches
 
@@ -42,8 +53,16 @@ Here the application writes the data directly to the database. Then the data whi
 
 In this approach, the application writes the data to the cache and the data gets updated in main database in specified intervals. This helps in reducing the delay in data transfer. In this case there is a high risk of data loss if there is a crash since the copy of data was in cache.
 
+# Cache Eviction
+
+Cache provides high speed data access but it is limited, which is why it is important to carefully maintain and manage the information stored in it. Cache eviction is a process in which old, unused, excess data being dropped from cache to create space for new and frequently used data. The policies followed by cache eviction are given below.
+
+- Least Recently Used (LRU) : It removes the items which are used very recently. It is one of the most popular caching strategies used.
+- Least Frequently Used (LFU) : It removes the items which are used less number of times.
+
 # References
 
 - An article from Amazom web services on Caching - [AWS](https://aws.amazon.com/caching/#:~:text=In%20computing%2C%20a%20cache%20is,the%20data's%20primary%20storage%20location.)
-- An article written by Umer Mansoor on Caching strategies and how to choose the right one - [https://codeahoy.com/2017/08/11/caching-strategies-and-how-to-choose-the-right-one/](https://codeahoy.com/2017/08/11/caching-strategies-and-how-to-choose-the-right-one/)
+- An article by Umer Mansoor on Brief overview of caching and cache invalidation - [https://codeahoy.com/2022/04/03/cache-invalidation/](https://codeahoy.com/2022/04/03/cache-invalidation/)
+- An article by Umer Mansoor on Caching strategies and how to choose the right one - [https://codeahoy.com/2017/08/11/caching-strategies-and-how-to-choose-the-right-one/](https://codeahoy.com/2017/08/11/caching-strategies-and-how-to-choose-the-right-one/)
 - An article on how to write markdown file by Saumya Ranjan Sahu - [https://medium.com/@saumya.ranjan/how-to-write-a-readme-md-file-markdown-file-20cb7cbcd6f](https://medium.com/@saumya.ranjan/how-to-write-a-readme-md-file-markdown-file-20cb7cbcd6f)
