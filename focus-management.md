@@ -26,3 +26,11 @@ Deep work is a term given by Cal Newport, which refers to the state of focusing 
 - The first objection is that social media is a fundamental technology of the 21st century, but the speaker argues that it's just a source of entertainment and a somewhat unsavory one at that.
 - The second objection is that social media is vital to success in the 21st-century economy, but the speaker argues that there's little evidence to support this claim.
 - The third objection is that social media is a great way to stay connected with friends and family, but the speaker argues that social media weakens these relationships and there are better ways to stay in touch.
+  
+
+# References
+- What is Deep Work - [https://www.youtube.com/watch?v=b6xQpoVgN68](https://www.youtube.com/watch?v=b6xQpoVgN68)
+- Optimal duration for deep work is at least 1 hour - [https://www.youtube.com/watch?v=LA6mvxwecZ0](https://www.youtube.com/watch?v=LA6mvxwecZ0)
+- Are deadlines good for productivity? - [https://www.youtube.com/watch?v=Jkl1vMNvvHU](https://www.youtube.com/watch?v=Jkl1vMNvvHU)
+- Success in a distracted world - [https://www.youtube.com/watch?v=gTaJhjQHcf8](https://www.youtube.com/watch?v=gTaJhjQHcf8)
+- Quit social media - [https://www.youtube.com/watch?v=3E7hkPZ-HTk](https://www.youtube.com/watch?v=3E7hkPZ-HTk)
